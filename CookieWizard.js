@@ -96,3 +96,4 @@ function Autobuy(depth) {
 
 
 var autoBuy = setInterval(function(){ Autobuy(0);}, autobuyInterval);
+var autoclick= setInterval(function(){Game.ClickCookie();}, 1);
